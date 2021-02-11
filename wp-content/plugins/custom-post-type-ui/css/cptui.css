@@ -214,19 +214,13 @@
   max-width: calc(100% - 173px);
 }
 
-.email-octopus-form-row input:-ms-input-placeholder {
-  color: #cccccc;
-}
-
 .email-octopus-form-row input::placeholder {
   color: #cccccc;
 }
 
 .cptui-intro-devblock {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
+  flex-direction: row;
 }
 
 #togglelabels {
@@ -312,49 +306,31 @@ fieldset .cptui-help {
 }
 
 .wdspromos-about {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -ms-flex-line-pack: stretch;
-      align-content: stretch;
-  -ms-flex-align: start;
+  align-content: stretch;
   align-items: flex-start;
   margin: 20px 0;
 }
 
 .wdspromos-about a:nth-child(1) {
-  -ms-flex-order: 0;
   order: 0;
-  -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
+  align-self: auto;
 }
 
 .wdspromos-about a:nth-child(2) {
-  -ms-flex-order: 0;
   order: 0;
-  -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
+  align-self: auto;
 }
 
 .wdspromos-about a:nth-child(3) {
-  -ms-flex-order: 0;
   order: 0;
-  -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
+  align-self: auto;
 }
 
 .wdspromos-about p {
@@ -408,8 +384,7 @@ fieldset .cptui-help {
     width: 100%;
   }
   .wdspromos-about {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .wdspromos-about p {
     margin: 5px auto;
@@ -427,3 +402,4 @@ fieldset .cptui-help {
     width: 100%;
   }
 }
+/*# sourceMappingURL=cptui.css.map */

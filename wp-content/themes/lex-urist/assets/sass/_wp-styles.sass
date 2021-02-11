@@ -1,13 +1,22 @@
-.content-area-page
-  padding-top: 2rem
-
+.area-page
+  padding: 2rem 0
+  font-family: 'Gotham Pro', sans-serif
+  &-content
+    padding: 2rem 0
 .page-title
   font-size: 4.2rem
-
-.container-page
+  text-align: center
+  margin-bottom: 1rem
+  color: #120b25
+  font-weight: 400
+  font-family: 'Gotham Pro', sans-serif
+.lex-row
+  margin-right: 0
+  margin-left: 0
+.content-page-stl
   & p, & ul, & ol, & table.content-table
     line-height: 24px
-    font-size: 1.6rem
+    font-size: 1.8rem
   & p
     padding-bottom: 1.4rem
     &:last-child
@@ -28,22 +37,24 @@
   & h1, & h2, & h3, & h4, & h5, & h6
     font-weight: 700
     line-height: 32px
+    font-family: 'Gotham Pro', sans-serif
   & h1
-    font-size: 4rem
+    font-size: 4.2rem
     padding-bottom: 30px
+    font-weight: 400
   & h2
-    font-size: 3.5rem
+    font-size: 3.8rem
     padding-bottom: 25px
   & h3, & h4, & h5, & h6
     padding-bottom: 20px
   & h3
-    font-size: 2.5rem
+    font-size: 3rem
   & h4
-    font-size: 2.4rem
+    font-size: 2.8rem
   & h5
-    font-size: 2.2rem
+    font-size: 2.6rem
   & h6
-    font-size: 2rem
+    font-size: 2.4rem
   & table.content-table
     width: 100%
     background-color: transparent
@@ -61,3 +72,66 @@
 .wp-block-media-text figure img, ul.blocks-gallery-grid li figure img
   &:hover
     cursor: pointer
+.alignleft
+	margin-right: 1.5rem
+	margin-bottom: 1.4rem
+  float: left
+.alignright
+	float: right
+	margin-left: 1.5rem
+	margin-bottom: 1.4rem
+.aligncenter
+	clear: both
+	display: block
+	margin-left: auto
+	margin-right: auto
+	margin-bottom: 1.4rem
+.gallery
+	margin-bottom: 1.5em
+	display: grid
+	grid-gap: 1.5em
+.gallery-item
+	display: inline-block
+	text-align: center
+	width: 100%
+.gallery-columns-2
+	grid-template-columns: repeat(2, 1fr)
+.gallery-columns-3
+	grid-template-columns: repeat(3, 1fr)
+.gallery-columns-4
+	grid-template-columns: repeat(4, 1fr)
+.gallery-columns-5
+	grid-template-columns: repeat(5, 1fr)
+.gallery-columns-6
+	grid-template-columns: repeat(6, 1fr)
+.gallery-columns-7
+	grid-template-columns: repeat(7, 1fr)
+.gallery-columns-8
+	grid-template-columns: repeat(8, 1fr)
+.gallery-columns-9
+	grid-template-columns: repeat(9, 1fr)
+.gallery-caption
+	display: block
+.wp-caption
+	margin-bottom: 1.5em
+	max-width: 100%
+.wp-caption img[class*="wp-image-"]
+	display: block
+	margin-left: auto
+	margin-right: auto
+.wp-caption .wp-caption-text
+	margin: 0.8075em 0
+.wp-caption-text
+	text-align: center
+figure
+	margin: 1em 0
+embed, iframe, object
+	max-width: 100%
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output, .wpcf7 form.sent .wpcf7-response-output
+  font-size: 1.6rem
+  color: #fff
+  padding: 1rem
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output
+  border-color: red
+.wpcf7 form .wpcf7-response-output
+  margin: 0.5rem

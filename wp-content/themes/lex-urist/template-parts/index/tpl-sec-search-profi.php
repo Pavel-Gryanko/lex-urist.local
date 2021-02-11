@@ -6,11 +6,7 @@
     <!-- sec-search-profi__col -->
     <div class="sec-search-profi__col df-fc df-ac">
       <h2 class="sec-search-profi-title">Вы уже сейчас <br> можете начать <br> сотрудничество!</h2>
-      <div class="sec-search-profi__form">
-        <input type="text" class="application_input" placeholder="Ваше имя:">
-        <input type="text" class="application_input" placeholder="Ваш адрес электронной почты:">
-        <input type="submit" class="sec-search-profi_butt butt-click" value="НАЙТИ СПЕЦИАЛИСТА">
-      </div>
+      <?php echo do_shortcode( '[contact-form-7 id="41" title="Найти специалиста"]' ); ?>
     </div>
     <!-- sec-search-profi__col -->
   </div>

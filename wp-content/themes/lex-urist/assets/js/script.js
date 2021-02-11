@@ -1,5 +1,5 @@
 $(document).ready(function () {
-/**
+    
   // Маска телефона в форме
   $(".phone_inp").mask("+7 (999) 999-99-99");
 
@@ -14,7 +14,7 @@ $(document).ready(function () {
   $("figure.wp-block-image a").fancybox();
   $('ul.blocks-gallery-grid li a').attr("data-fancybox","gallery");
   $('.wp-block-media-text__media a').attr("data-fancybox","gallery");
- */
+
     var show = true;
     var countbox = ".show-count";
     $(window).on("scroll load resize", function () {
@@ -40,6 +40,14 @@ $(document).ready(function () {
     $(this).toggleClass('header__menu-btn-mob_active');
     $(".main-navbar").toggleClass('main-navbar_active');
   });
+
+  $(".callback-btn").on('click', function (e) {
+    e.preventDefault();
+    $(".main-navbar_active").hide();
+    $("a.header__menu-btn-mob").removeClass('header__menu-btn-mob_active');
+  });
+
+  
 
 });
 // END READY

@@ -150,6 +150,8 @@ a
       margin-bottom: 1.5rem
     &-20
       margin-bottom: 2rem
+    &-25
+      margin-bottom: 2.5rem
     &-30
       margin-bottom: 3rem
     &-40
@@ -215,7 +217,7 @@ a
   width: 100%
   padding: 0.5rem 1rem 0
   & li.menu-item
-    margin-right: 2rem
+    margin-right: 2.5rem
     &:last-child
       margin-right: 0px
     & a
@@ -229,9 +231,9 @@ a
         position: absolute
         transition: .3s
         content: ''
-        bottom: -10px
+        bottom: -15px
         left: 0
-        width: 45px
+        width: 60px
         height: 4px
         background-color: transparent
       &:hover
@@ -242,7 +244,7 @@ a
     & a
       &::after
         background-color: #d31c54
-a.custom-logo
+a.custom-logo-link
   &:hover
     animation: bounce-an  1s linear
 .callvack-btn
@@ -344,3 +346,32 @@ a.custom-logo
   transition: .3s
   &:hover
     transform: scale(0.9) translateY(-50%)
+.lex-modal-area
+  background-color: #120b25
+  box-shadow: none !important
+  border-radius: 16px
+  & .application_input
+    margin-bottom: 0.2rem
+  & .application_butt
+    display: block
+    width: 100%
+  & .modal-header
+    border-bottom: 1px solid #fff
+    color: #fff
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &::after, &::before
+      display: none
+    & .close
+      float: none
+      color: #fff
+      opacity: 0.9
+      &:hover
+        opacity: 0.6
+    & h3.modal-header-title
+      font-size: 2rem
+      display: inline-block
+.email-author-profi
+  & .wpcf7-not-valid-tip
+    font-size: 1.6rem

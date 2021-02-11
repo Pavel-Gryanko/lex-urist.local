@@ -1,6 +1,10 @@
 .header
   padding-top: 2.5rem
   position: relative
+  background: url('../img/header/h-page.png') left top no-repeat
+  width: 100%
+  height: auto
+  padding-bottom: 2rem
   &-main
     width: 100vw
     height: auto
@@ -12,6 +16,7 @@
   display: flex
   justify-content: space-between
   align-items: flex-start
+  padding-bottom: 1rem
 .main-navbar
   width: calc( 100% - 20% )
 .sec-header
@@ -75,7 +80,7 @@
       &::after
         position: absolute
         z-index: -1
-        content: '01'
+        content: ''
         font-family: 'Gotham Pro', sans-serif
         font-size: 10.4rem
         font-weight: bold
@@ -83,6 +88,15 @@
         color: #393c3f
         left: -40px
         top: -20px
+      &_01
+        &::after
+          content: '01'
+      &_02
+        &::after
+          content: '02'
+      &_03
+        &::after
+          content: '03'
 .lex-title_line
   display: inline-block
   height: 1px
