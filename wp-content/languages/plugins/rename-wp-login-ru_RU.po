@@ -1,0 +1,60 @@
+# Translation of Plugins - Rename wp-login.php - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Rename wp-login.php - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-18 06:00:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Rename wp-login.php - Development (trunk)\n"
+
+#: rename-wp-login.php:249 rename-wp-login.php:255
+msgid "Settings"
+msgstr "Настройки"
+
+#: rename-wp-login.php:241
+msgid "Your login page is now here: %s. Bookmark this page!"
+msgstr "Ваша страница входа теперь находится на %s. Добавьте ее в закладки."
+
+#: rename-wp-login.php:221
+msgid "Network Settings"
+msgstr "Настройки сети"
+
+#: rename-wp-login.php:219
+msgid "To set a networkwide default, go to %s."
+msgstr "Чтобы установить сетевое значение по умолчанию, перейдите в %s."
+
+#: rename-wp-login.php:179
+msgid "Login url"
+msgstr "Страница входа"
+
+#: rename-wp-login.php:147
+msgid "Networkwide default"
+msgstr "Сетевое значение по умолчанию"
+
+#: rename-wp-login.php:142
+msgid "This option allows you to set a networkwide default, which can be overridden by individual sites. Simply go to to the site’s permalink settings to change the url."
+msgstr "Этот параметр позволяет установить сетевое значение по умолчанию, которое может быть переопределено отдельными сайтами. Просто перейдите к настройкам постоянной ссылки сайта, чтобы изменить URL."
+
+#. Plugin Name of the plugin
+msgid "Rename wp-login.php"
+msgstr "Переименовать wp-login.php"
+
+#. Description of the plugin
+msgid "Change wp-login.php to whatever you want."
+msgstr "Изменить wp-login.php в то что пожелаете."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/rename-wp-login/"
+msgstr "https://wordpress.org/plugins/rename-wp-login/"
+
+#: rename-wp-login.php:302
+msgid "You must log in to access the admin area."
+msgstr "Сначала войдите, чтобы попасть на эту страницу."
+
+#: rename-wp-login.php:274
+msgid "This feature is not enabled."
+msgstr "Эта возможность не включена."

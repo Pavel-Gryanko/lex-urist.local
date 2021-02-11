@@ -1,0 +1,91 @@
+.header
+  padding-top: 2.5rem
+  position: relative
+  &-main
+    width: 100vw
+    height: auto
+    padding-bottom: 5rem
+    max-width: 100%
+    background: url('../img/header/top-bg.png') left top no-repeat
+    background-size: cover
+.sec-nav
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+.main-navbar
+  width: calc( 100% - 20% )
+.sec-header
+  display: flex
+  justify-content: flex-end
+  &__col
+    width: 60%
+    position: relative
+    padding: 2rem 0 6rem 15rem
+    color: #ffffff
+    z-index: 1
+    overflow-x: hidden
+    &::after
+      position: absolute
+      z-index: -1
+      content: ''
+      background-image: linear-gradient(to right, #f00b51 0%, #d31c54 48%, #ff6b28 100%)
+      opacity: 0.79
+      width: 280px
+      height: 100%
+      left: 0
+      top: 0
+  &-title
+    font-size: 3rem
+    margin-bottom: 7rem
+    display: flex
+    align-items: center
+  &__suptitle
+    font-family: 'Gotham Pro', sans-serif
+    line-height: 132px
+    font-size: 9.2rem
+    padding-bottom: 4rem
+    font-weight: 400
+  &__text
+    font-size: 2.4rem
+    font-weight: 400
+    line-height: 30px
+    padding-right: 20rem
+.lex-control
+  display: flex
+  font-size: 1.8rem
+  border-radius: 10px
+  background-color: #43484a
+  width: 100%
+  margin-top: 20rem
+  &__item
+    display: flex
+    justify-content: center
+    align-items: flex-end
+    padding: 4rem
+    width: 32%
+    &:last-child
+      width: 36%
+    &_bg-g
+      background-color: #565b5c
+    &-text
+      position: relative
+      z-index: 1
+      padding-left: 40px
+      padding-top: 35px
+      &::after
+        position: absolute
+        z-index: -1
+        content: '01'
+        font-family: 'Gotham Pro', sans-serif
+        font-size: 10.4rem
+        font-weight: bold
+        text-transform: uppercase
+        color: #393c3f
+        left: -40px
+        top: -20px
+.lex-title_line
+  display: inline-block
+  height: 1px
+  width: 27%
+  margin-left: 2rem
+  background-color: #dad6d6

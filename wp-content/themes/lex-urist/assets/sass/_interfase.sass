@@ -1,0 +1,346 @@
+body.compensate-for-scrollbar
+  overflow: auto
+.main-container
+  max-width: 1540px
+.middle-container
+  max-width: 1324px
+.full-container
+  max-width: 1778px
+p
+  font-size: 1.6rem
+  line-height: 24px
+.page-wrap
+  & p 
+    padding-bottom: 12px
+  a 
+    color: #cb432f
+    text-decoration: none
+    &:hover
+      text-decoration: underline
+a.link-up
+  display: inline-block
+  width: 48px
+  height: 48px
+  background: url("../img/up.png") left top no-repeat
+  background-size: contain
+  opacity: 0
+  position: fixed
+  right: 3%
+  bottom: 10px
+  z-index: 2000
+  transition: 0.6s
+  visibility: hidden
+  &_show
+    opacity: 1
+    visibility: visible
+img
+  max-width: 100%
+  height: auto
+a
+  text-decoration: none
+  &:hover
+    text-decoration: none
+    cursor: pointer
+.text
+  &-center
+    text-align: center
+  &-left
+    text-align: left
+  &-right
+    text-align: right
+.df
+  display: flex
+  &-al, &-ar, &-ac
+    display: flex
+  &-al
+    align-items: flex-start
+  &-ar
+    align-items: flex-end
+  &-ac
+    align-items: center
+  &-jc
+    display: flex
+    justify-content: center
+  &-js
+    display: flex
+    justify-content: flex-start
+  &-je
+    display: flex
+    justify-content: flex-end
+  &-jsb
+    display: flex
+    justify-content: space-between
+  &-jsa
+    display: flex
+    justify-content: space-around
+  &-fc
+    display: flex
+    flex-direction: column
+  &-fw
+    display: flex
+    flex-wrap: wrap
+.stl
+  &-pl
+    &-30
+      padding-left: 3rem
+  &-pr
+    &-50
+      padding-right: 5rem
+  &-pt
+    &-10
+      padding-top: 1rem
+    &-15
+      padding-top: 1.5rem
+    &-20
+      padding-top: 2rem
+    &-30
+      padding-top: 3rem
+    &-40
+      padding-top: 4rem
+  &-pb
+    &-10
+      padding-bottom: 1rem
+    &-15
+      padding-bottom: 1.5rem
+    &-20
+      padding-bottom: 2rem
+    &-30
+      padding-bottom: 3rem
+    &-40
+      padding-bottom: 4rem
+    &-45
+      padding-bottom: 4.5rem
+    &-50
+      padding-bottom: 5rem
+    &-55
+      padding-bottom: 5.5rem
+    &-60
+      padding-bottom: 6rem
+  &-mt
+    &-10
+      margin-top: 5rem
+    &-10
+      margin-top: 1rem
+    &-15
+      margin-top: 1.5rem
+    &-20
+      margin-top: 2rem
+    &-30
+      margin-top: 3rem
+    &-40
+      margin-top: 4rem
+    &-50
+      margin-top: 5rem
+    &-60
+      margin-top: 6rem
+    &-70
+      margin-top: 7rem
+    &-80
+      margin-top: 8rem
+    &-90
+      margin-top: 9rem
+    &-100
+      margin-top: 10rem
+  &-mb
+    &-5
+      margin-bottom: 0.5rem
+    &-10
+      margin-bottom: 1rem
+    &-15
+      margin-bottom: 1.5rem
+    &-20
+      margin-bottom: 2rem
+    &-30
+      margin-bottom: 3rem
+    &-40
+      margin-bottom: 4rem
+    &-50
+      margin-bottom: 5rem
+    &-60
+      margin-bottom: 6rem
+    &-70
+      margin-bottom: 7rem
+    &-80
+      margin-bottom: 8rem
+    &-90
+      margin-bottom: 9rem
+    &-100
+      margin-bottom: 10rem
+  &-mr
+    &-10
+      margin-right: 1rem
+    &-20
+      margin-right: 2rem
+  &-st
+    &-2_3
+      font-size: 2.3rem
+    &-3
+      font-size: 3rem
+    &-3_3
+      font-size: 3.3rem
+    &-3_8
+      font-size: 3.8rem
+    &-4
+      font-size: 4rem
+    &-5
+      font-size: 5rem
+    &-6
+      font-size: 6rem
+  &-tt-up
+    text-transform: uppercase
+.after-animated
+  position: relative
+  &::after
+    position: absolute
+    transition: .3s
+    content: ''
+    left: 0
+    bottom: -2px
+    height: 1px
+    width: 0%
+    background-color: #000
+    visibility: hidden
+  &:hover
+    &::after
+      width: 100%
+      visibility: visible
+.section-title
+  font-size: 4em
+  font-weight: 400
+  text-align: center
+.main-menu
+  display: flex
+  justify-content: space-between
+  max-width: 1010px
+  width: 100%
+  padding: 0.5rem 1rem 0
+  & li.menu-item
+    margin-right: 2rem
+    &:last-child
+      margin-right: 0px
+    & a
+      display: block
+      font-size: 2.4rem
+      color: #ffffff
+      position: relative
+      text-decoration: none
+      transition: .3s
+      &::after
+        position: absolute
+        transition: .3s
+        content: ''
+        bottom: -10px
+        left: 0
+        width: 45px
+        height: 4px
+        background-color: transparent
+      &:hover
+        text-decoration: none
+        &::after
+          background-color: #d31c54
+  & li.current-menu-item
+    & a
+      &::after
+        background-color: #d31c54
+a.custom-logo
+  &:hover
+    animation: bounce-an  1s linear
+.callvack-btn
+  white-space: nowrap
+.btn
+  color: #ffffff
+  padding: 14px 21px
+  display: inline-block
+  font-size: 2.2rem
+  transition: .4s
+  text-align: center
+  line-height: 1
+  &:hover
+    cursor: pointer
+    text-decoration: none
+  &_f
+    font-family: 'Gotham Pro', sans-serif
+    font-size: 2rem
+    font-weight: 500
+    border-radius: 10px
+    white-space: nowrap
+  &_grad-b
+    border: 3px solid #d31c54
+    padding: 14px 41px
+    &:hover
+      background-image: linear-gradient(to right, #f00b51 0%, #d31c54 48%, #ff6b28 100%)
+      border: 3px solid transparent
+      transform: scale(0.9)
+  &_grad
+    background-image: linear-gradient(to right, #f00b51 0%, #d31c54 48%, #ff6b28 100%)
+    &:hover
+      transform: scale(0.9)
+.set-title-line
+  position: relative
+  font-family: 'Segoe UI', sans-serif
+  font-size: 3rem
+  font-weight: 300
+  color: #000000
+  padding-left: 55px
+  display: block
+  margin-bottom: 4rem
+  &::after
+    position: absolute
+    content: ''
+    width: 42px
+    height: 2px
+    background-color: #d31c54
+    left: 0
+    top: 15px
+.danger
+  color: red
+.team-mail-butt
+  border-radius: 10px
+  display: block
+  width: 100%
+  height: 40px
+  background: url('../img/mail.png') center no-repeat
+  background-color: #d31c54
+  max-width: 168px
+  margin: 0 auto
+  transition: .4s
+  &:hover
+    transform: scale(0.9)
+.butt-click
+  transition: .4s
+  &:hover
+    transform: scale(0.9)
+.text-grad_dark
+  background-color: #394c57
+  color: #fff
+  padding: 10px 14px 10px 0
+.i-arrow_black
+  display: inline-block
+  width: 24px
+  height: 12px
+  background: url('../img/arrow-black.png') left center no-repeat
+  background-size: contain
+  cursor: pointer
+  position: relative
+  animation: arrow-hover 1s linear infinite
+.i-arrow_white
+  display: inline-block
+  width: 71px
+  height: 160px
+  background: url('../img/arrow-white.png') left center no-repeat
+  background-size: contain
+.lex_link-work
+  display: block
+  position: absolute
+  top: 50%
+  right: -130px
+  transform: translateY(-50%)
+  background-size: cover
+  width: 300px
+  height: 300px
+  background: url('../img/header/click.png') left bottom no-repeat
+  background-color: #d31c54
+  border-radius: 50%
+  transition: .3s
+  &:hover
+    transform: scale(0.9) translateY(-50%)

@@ -1,0 +1,110 @@
+@charset "UTF-8";
+.header__menu-btn-mob {
+  display: none;
+  position: relative;
+  background-color: transparent;
+  width: 35px;
+  height: 35px;
+  margin-right: 20px;
+}
+
+.header__menu-btn-mob:hover {
+  text-decoration: none;
+  cursor: default;
+}
+
+.header__menu-btn-mob span {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  margin-top: -1px;
+  height: 2px;
+  width: 35px;
+  background-color: #fff;
+}
+
+.header__menu-btn-mob span::before, .header__menu-btn-mob span::after {
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  width: 35px;
+  left: 0;
+  height: 2px;
+  transition: 0.4s;
+}
+
+.header__menu-btn-mob span::before {
+  -webkit-transform: translateY(-10px);
+  -webkit-transform-transform: translateY(-10px);
+}
+
+.header__menu-btn-mob span::after {
+  -webkit-transform: translateY(10px);
+  -webkit-transform-transform: translateY(10px);
+}
+
+.header__menu-btn-mob_active span {
+  height: 0px;
+}
+
+.header__menu-btn-mob_active span::before {
+  -webkit-transform: rotate(45deg);
+  -webkit-transform-transform: rotate(45deg);
+}
+
+.header__menu-btn-mob_active span::after {
+  -webkit-transform: rotate(-45deg);
+  -webkit-transform-transform: rotate(-45deg);
+}
+
+/*
+.header__mob-menu {
+  opacity: 0;
+  visibility: hidden;
+  height: 0px;
+  transform: translateX(-500%);
+  flex-basis: 100%;
+  justify-content: center;
+  transition: 0.6s;
+}
+
+.header__mob-menu_active {
+  display: flex;
+  opacity: 1;
+  visibility: visible;
+  height: auto;
+  padding-top: 10px;
+  transform: translateX(0%);
+}
+*/
+.headhesive {
+  position: fixed;
+  width: 100%;
+  transform: translateY(-500%);
+  transition: 0.4s;
+  z-index: 9999;
+}
+
+.headhesive--stick {
+  transform: translateY(0%);
+}
+
+/*Модальное окно*/
+.modal-dialog {
+  top: 50%;
+  transform: translateY(-50%) !important;
+}
+
+.main-modal-area {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #4c4c4c;
+  border-radius: 0px;
+}
+
+.main-modal-header {
+  border-bottom: 0px solid transparent;
+}
+
+.main-modal-header h3 {
+  display: inline-block;
+}
