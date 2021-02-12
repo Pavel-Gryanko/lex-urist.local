@@ -1973,6 +1973,9 @@ embed, iframe, object {
     display: inline-block;
     font-size: 3rem;
   }
+  .main-navbar_active .main-menu .menu-item a::after {
+    width: 100%;
+  }
   .callvack-btn {
     display: block;
     width: 50%;
