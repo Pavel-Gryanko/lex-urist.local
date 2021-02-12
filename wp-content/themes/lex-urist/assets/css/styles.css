@@ -911,7 +911,7 @@ a.custom-logo-link:hover {
   background-color: transparent;
   width: 35px;
   height: 35px;
-  margin-right: 20px;
+  margin-right: 0px;
 }
 
 .header__menu-btn-mob:hover {
@@ -1191,6 +1191,12 @@ a.custom-logo-link:hover {
 
 .reviews-area {
   padding-top: 4rem;
+}
+
+.reviews-area .cpt-alm-item {
+  border-radius: 5px;
+  padding: 0.5rem !important;
+  margin-bottom: 2rem;
 }
 
 .reviews-col {
@@ -1624,7 +1630,9 @@ a.custom-logo-link:hover {
 
 .page-title {
   font-size: 4.2rem;
-  text-align: center;
+  text-align: left;
+  background: linear-gradient(90.03deg, #e4e6e6 0.65%, #FFFFFF 100.76%);
+  padding: 2rem;
   margin-bottom: 1rem;
   color: #120b25;
   font-weight: 400;
@@ -1840,6 +1848,19 @@ embed, iframe, object {
   margin: 0.5rem;
 }
 
+.headhesive {
+  background-color: #120b25;
+  padding: 2rem;
+}
+
+.headhesive .custom-logo-link {
+  display: none !important;
+}
+
+.headhesive .main-navbar {
+  width: 100%;
+}
+
 @media (max-width: 1700px) {
   .sec-process__item {
     font-size: 3.4rem;
@@ -1933,7 +1954,7 @@ embed, iframe, object {
     background-color: #120b25;
     height: 80vh;
     padding: 1.5rem;
-    position: absolute;
+    position: relative;
     left: 0;
     z-index: 100;
     top: 10px;
@@ -1977,10 +1998,6 @@ embed, iframe, object {
 }
 
 @media (max-width: 1200px) {
-  .custom-logo {
-    display: block;
-    margin: 0 auto;
-  }
   .lex_link-work {
     top: 20%;
     transform: translateY(0%);

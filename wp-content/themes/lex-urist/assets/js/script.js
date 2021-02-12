@@ -39,6 +39,7 @@ $(document).ready(function () {
     e.preventDefault();
     $(this).toggleClass('header__menu-btn-mob_active');
     $(".main-navbar").toggleClass('main-navbar_active');
+    $(".custom-logo-link").toggle();
   });
 
   $(".callback-btn").on('click', function (e) {
@@ -69,11 +70,11 @@ linkTop.on('click', function (e) {
 });
 
 // Фиксированное меню
-/*
+
 var options = {
     offset: 350
 }
-var header = new Headhesive('.header__top-menu', options);
-*/ 
+var header = new Headhesive('.sec-nav', options);
+
 
 
