@@ -39,13 +39,14 @@ $(document).ready(function () {
     e.preventDefault();
     $(this).toggleClass('header__menu-btn-mob_active');
     $(".main-navbar").toggleClass('main-navbar_active');
-    $(".custom-logo-link").toggle();
+    $("a.custom-logo-link").toggle();
   });
 
   $(".callback-btn").on('click', function (e) {
     e.preventDefault();
-    $(".main-navbar_active").hide();
+    $(".main-navbar").removeClass('main-navbar_active');
     $("a.header__menu-btn-mob").removeClass('header__menu-btn-mob_active');
+    $("a.custom-logo-link").toggle();
   });
 
   
