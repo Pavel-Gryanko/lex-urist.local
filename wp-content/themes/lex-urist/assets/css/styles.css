@@ -1858,7 +1858,7 @@ embed, iframe, object {
 }
 
 .headhesive .main-navbar {
-  width: 100%;
+  width: 50%;
 }
 
 @media (max-width: 1700px) {
